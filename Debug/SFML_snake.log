@@ -1,0 +1,4 @@
+﻿  SFML_snake.cpp
+C:\Users\Mikhaill\source\repos\SFML_snake\SFML_snake.cpp(11,9): warning C4101: q: неиспользованная локальная переменная
+C:\Users\Mikhaill\source\repos\SFML_snake\SFML_snake.cpp(11,6): warning C4101: n: неиспользованная локальная переменная
+  SFML_snake.vcxproj -> C:\Users\Mikhaill\source\repos\SFML_snake\Debug\SFML_snake.exe
