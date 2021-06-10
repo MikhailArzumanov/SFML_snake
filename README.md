@@ -1,0 +1,1 @@
+simple realization of snake
