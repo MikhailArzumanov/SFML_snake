@@ -1,4 +1,4 @@
-Simple realization of snake
+Simple implementation of snake
 
 Map paths lays in the file 'levels.txt'
 
