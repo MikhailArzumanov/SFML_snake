@@ -1,0 +1,10 @@
+# 20x20 map table 
+{
+{E/W}
+}
+[start_x] [start_y] #coordinates of snake at the begin
+[start_direction]   #snake's start direction code
+#1 -- right
+#2 -- up
+#3 -- left
+#4 -- down
