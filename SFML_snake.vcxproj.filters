@@ -13,10 +13,111 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\main_menu">
+      <UniqueIdentifier>{dc87d45b-7228-4276-a5ab-64ea67aa1266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\main_menu">
+      <UniqueIdentifier>{99d68263-d8e0-4e6c-b101-ac71d56fbcdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\the_game">
+      <UniqueIdentifier>{471fcc2f-61e0-430e-82cc-6551fb7b8819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\the_game\init_game">
+      <UniqueIdentifier>{ac3581f3-6599-4001-aced-7e55b02e3639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\the_game\draw">
+      <UniqueIdentifier>{6e9fd5ee-80a8-426a-8ec9-cecf344e7ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\the_game\game_dynamics">
+      <UniqueIdentifier>{6cb2ab7b-cef7-4bd0-b58e-9fa475f6b086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\the_game\handlers">
+      <UniqueIdentifier>{57fd082a-d15b-4fdd-8fcd-1e4f1dfb836b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\the_game">
+      <UniqueIdentifier>{16b100d3-d809-49e3-8c84-524cebde8507}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SFML_snake.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="draw_score.cpp">
+      <Filter>Исходные файлы\the_game\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>Исходные файлы\the_game\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_env.cpp">
+      <Filter>Исходные файлы\the_game\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="init_game.cpp">
+      <Filter>Исходные файлы\the_game\init_game</Filter>
+    </ClCompile>
+    <ClCompile Include="init_obj_map.cpp">
+      <Filter>Исходные файлы\the_game\init_game</Filter>
+    </ClCompile>
+    <ClCompile Include="init_game_read_map.cpp">
+      <Filter>Исходные файлы\the_game\init_game</Filter>
+    </ClCompile>
+    <ClCompile Include="event_handler.cpp">
+      <Filter>Исходные файлы\the_game\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers_change_direction.cpp">
+      <Filter>Исходные файлы\the_game\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="snake_dynamics.cpp">
+      <Filter>Исходные файлы\the_game\game_dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamics_environment.cpp">
+      <Filter>Исходные файлы\the_game\game_dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="gen_orange.cpp">
+      <Filter>Исходные файлы\the_game\game_dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="game_over.cpp">
+      <Filter>Исходные файлы\the_game\game_dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="environment_function.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="choose_level.cpp">
+      <Filter>Исходные файлы\main_menu</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_levels.cpp">
+      <Filter>Исходные файлы\main_menu</Filter>
+    </ClCompile>
+    <ClCompile Include="handle_choose.cpp">
+      <Filter>Исходные файлы\main_menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="draw.hpp">
+      <Filter>Файлы заголовков\the_game</Filter>
+    </ClInclude>
+    <ClInclude Include="environment.hpp">
+      <Filter>Файлы заголовков\the_game</Filter>
+    </ClInclude>
+    <ClInclude Include="environment_functions.hpp">
+      <Filter>Файлы заголовков\the_game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_dynamics.hpp">
+      <Filter>Файлы заголовков\the_game</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers.hpp">
+      <Filter>Файлы заголовков\the_game</Filter>
+    </ClInclude>
+    <ClInclude Include="init_game.hpp">
+      <Filter>Файлы заголовков\the_game</Filter>
+    </ClInclude>
+    <ClInclude Include="libs.hpp">
+      <Filter>Файлы заголовков\the_game</Filter>
+    </ClInclude>
+    <ClInclude Include="main_menu.hpp">
+      <Filter>Файлы заголовков\main_menu</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

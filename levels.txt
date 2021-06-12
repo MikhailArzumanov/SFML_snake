@@ -1,0 +1,3 @@
+2
+maps/stdmap
+maps/stdmap2

@@ -154,7 +154,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="choose_level.cpp" />
+    <ClCompile Include="draw.cpp" />
+    <ClCompile Include="draw_env.cpp" />
+    <ClCompile Include="draw_levels.cpp" />
+    <ClCompile Include="draw_score.cpp" />
+    <ClCompile Include="dynamics_environment.cpp" />
+    <ClCompile Include="environment.cpp" />
+    <ClCompile Include="environment_function.cpp" />
+    <ClCompile Include="event_handler.cpp" />
+    <ClCompile Include="game_over.cpp" />
+    <ClCompile Include="gen_orange.cpp" />
+    <ClCompile Include="handlers_change_direction.cpp" />
+    <ClCompile Include="handle_choose.cpp" />
+    <ClCompile Include="init_game.cpp" />
+    <ClCompile Include="init_game_read_map.cpp" />
+    <ClCompile Include="init_obj_map.cpp" />
     <ClCompile Include="SFML_snake.cpp" />
+    <ClCompile Include="snake_dynamics.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="draw.hpp" />
+    <ClInclude Include="environment.hpp" />
+    <ClInclude Include="environment_functions.hpp" />
+    <ClInclude Include="game_dynamics.hpp" />
+    <ClInclude Include="handlers.hpp" />
+    <ClInclude Include="init_game.hpp" />
+    <ClInclude Include="libs.hpp" />
+    <ClInclude Include="main_menu.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
